@@ -237,7 +237,13 @@ proc open(self: var Game) =
   self.cursor = current
 
 proc flag(self: var Game) =
-  self.field[self.cursor.y][self.cursor.x].state = Flagged
+  case self.field[self.cursor.y][self.cursor.x].state
+  of Closed:
+    self.field[self.cursor.y][self.cursor.x].state = Flagged
+  of Flagged:
+    self.field[self.cursor.y][self.cursor.x].state = Closed
+  of Open:
+    return
 
 var game = newGame(15, 25, 35)
 
