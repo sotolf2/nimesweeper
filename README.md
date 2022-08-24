@@ -1,7 +1,9 @@
 # nimesweeper
 A simple ascii minesweeper in nim
 
-![2022-08-24-@19-23-16-scrot.png]
+Work in progress, still with colemak keybinding, no win condition and so on :p
+
+![An image of the minesweeper game being played](2022-08-24-@19-23-16-scrot.png)
 
 Made with the following nim compiler it might work with others, but it's the one I wrote and have tested it with.
   ```
