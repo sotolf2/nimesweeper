@@ -1,6 +1,8 @@
 # nimesweeper
 A simple ascii minesweeper in nim
 
+![2022-08-24-@19-23-16-scrot.png]
+
 Made with the following nim compiler it might work with others, but it's the one I wrote and have tested it with.
   ```
   Nim Compiler Version 1.7.1 [Linux: amd64]
